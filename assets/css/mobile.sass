@@ -1,0 +1,230 @@
+@media only screen and (max-width: 1024px)
+	//header
+	.header
+		padding-top: 10px 
+	//nav
+	.nav
+		display: none
+		max-width: 150px 
+		width: 100%
+		position: absolute
+		top: 60px
+		right: 0
+		background-color: #FFC038   
+		&.active
+			display: block  
+	.nav-toggle
+		display: block 
+	.nav__link
+		display: block
+		margin: 0
+		padding: 8px 20px 
+	//intro
+	.intro__inner
+		margin-top: 0 
+	.intro__title
+		font-size: 28px 
+	.intro__text
+		font-size: 14px 
+	.intro__svg
+		top: -30px 
+	.svg__cover
+		top: -15px 
+	.devices__item--iphone
+		width: 128px 
+@media only screen and (max-width: 850px)
+	//intro
+	.intro
+		min-height: 600px 
+	.intro__svg
+		display: none 
+	.svg__cover
+		font-size: 0
+	// intro
+	.intro__inner
+		-webkit-flex-wrap: wrap 
+		-ms-flex-wrap: wrap 
+		flex-wrap: wrap 
+		-webkit-flex-direction: column-reverse 
+		-ms-flex-direction: column-reverse 
+		flex-direction: column-reverse 
+		margin-top: 90px 
+	.intro__caption	
+		width: 100% 
+	.intro__devices
+		width: 100% 
+	.intro__title
+		text-align: center 
+	.intro__text
+		max-width: 100% 
+	// wedo
+	.wedo
+		padding-top: 100px 
+	.wedo__item
+		padding-bottom: 40px 
+		-webkit-flex-direction: column-reverse 
+		-ms-flex-direction: column-reverse 
+		flex-direction: column-reverse
+	.wedo__item--rev
+		-webkit-flex-direction: column 
+		-ms-flex-direction: column 
+		flex-direction: column 
+	.wedo__image 
+		width: 100% 
+		img
+			margin: 0 auto 
+	.wedo__caption
+		width: 100% 
+		padding-right: 0
+	.wedo__caption--right
+		padding-left: 0 
+	.item__title
+		text-align: center 
+	.wedo__caption
+		.section__btn
+			margin: 10px auto
+	// features
+	.features__item
+		width: 50% 
+	// history
+	.history
+		-webkit-flex-direction: column 
+		-ms-flex-direction: column 
+		flex-direction: column 
+		position: relative
+	.history__item
+		width: 100% 
+	.history__item--mobile
+		padding-top: 65px
+	.section__header-history
+		position: absolute
+		margin: 0 auto
+		top: 0
+		left: 0
+		right: 0    
+	
+@media only screen and (max-width: 750px)
+	// section
+	.section__header-big
+		max-width: 320px
+	.section__title
+		font-size: 20px
+	.section__btn--updates
+		bottom: 15px  
+	// packages
+	.packages__row
+		&.top
+			padding-top: 0
+		&.bottom
+			padding-top: 0  
+	.packages__row__title
+		&.basic
+			position: static 
+		&.premium
+			position: static 
+	.packages__buttons
+		padding: 0
+	.packages__button
+		margin: 5px 
+	// bussines
+	.bussines
+		padding: 20px 
+	.bussines__item
+		width: 50% 
+	// members
+	.members
+		-webkit-justify-content: flex-end
+		justify-content: center 
+		::after
+			max-height: 420px		
+	.members__item
+		width: 33% 
+	// updates
+	.updates
+		padding-top: 120px 
+	.updates__inner
+		-webkit-flex-wrap: wrap 
+		-ms-flex-wrap: wrap 
+		flex-wrap: wrap 
+		-webkit-flex-direction: column-reverse 
+		-ms-flex-direction: column-reverse 
+		flex-direction: column-reverse 
+	.updates__item
+		width: 100% 
+	.updates__workers
+		margin-top: 50px 
+		&::after
+			padding: 20px 30px
+			font-size: 18px 
+			max-height: 65px 
+	// footer
+		.footer__nav__item
+			font-size: 14px 
+		.footer__nav__item--main
+			font-size: 18px 
+	.footer__copyright
+		font-size: 12px 
+	
+@media only screen and (max-width: 500px)
+	// section
+	.section__header
+		max-width: 170px 
+	.section__title
+		font-size: 20px 
+	.devices__item--iphone
+		width: 80px 
+		bottom: 10px 
+	.section__header-big
+		max-width: 175px
+
+	// features
+	.features
+		padding-top: 100px 
+	.features__item
+		width: 100%
+		margin-bottom: 0 
+	//packages
+	.packages
+		font-size: 14px 
+		padding-top: 120px 
+	.packages__row__title
+		&.basic, &.basic.cost
+			font-size: 15px  
+		&.standart, &.standart.cost
+			font-size: 18px 
+		&.premium, &.premium.cost
+			font-size: 15px 
+	.packages__button
+		padding: 5px 0
+	//history
+	.history__text
+		line-height: inherit
+		font-size: 14px  
+	// bussines
+	.bussines__item
+		width: 100%
+	// members
+	.members
+		::after
+			max-height: 640px 
+	.members__item
+		width: 50%
+		font-size: 14px 
+	// updates
+	.updates
+		padding-top: 80px
+	.updates__text
+		font-size: 14px 
+	.updates__workers
+		&::after
+			max-height: 45px 
+			padding: 10px 
+			font-size: 16px 
+	.section__btn--updates
+		bottom: 8px 
+		padding: 5px 10px
+	// footer
+	.footer .footer__nav__item--main
+		font-size: 12px 
+	.footer .footer__nav__item
+		font-size: 10px 
